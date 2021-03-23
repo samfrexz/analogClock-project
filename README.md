@@ -24,3 +24,35 @@ console.log(txt);
 for each loop:
 
 The forEach() method calls a function once for each element in an array, in order.
+let carTypes = ['volvo', 'benz', 'audi','acura']
+
+carTypes.forEach(carType => console.log(carType))
+
+for of loop
+The JavaScript for/of statement loops through the values of an iterable object.
+example:
+let carTypes = ['volvo', 'benz', 'audi','acura'];
+let txt = '';
+for (let car of carTypes) {
+txt += car + ','
+}
+console.log(txt)
+
+foreach loop to loop through an array of objects
+
+let laptopFeatures = [
+{
+chargerPort: true,
+chargerType: 'type c',
+screenSize: '14inches',
+usbPorts: 3
+},
+{
+keyboardLight: true,
+chargerType: 'pin mouth',
+operatingSystem: 'windows 8'
+}
+];
+laptopFeatures.forEach(laptopFeature => {
+console.log(laptopFeature.chargerType)
+});
