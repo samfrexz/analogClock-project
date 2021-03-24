@@ -74,7 +74,7 @@ Create an Array with three elements: the second element should be a function the
 const clubNames = [
   "barcelona",
   (getClubsName = (club) => {
-    return `the name of my is ${club}!`;
+    return `the name of my club is ${club}!`;
   }),
   "Sevilla",
 ];
